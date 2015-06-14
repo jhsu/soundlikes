@@ -11,7 +11,7 @@ USER_TOKEN = ENV["SLACK_USER_TOKEN"]
 AUTH = {client_id: ENV['SOUNDCLOUD_AUTH_CLIENT_ID'],
         client_secret: ENV['SOUNDCLOUD_AUTH_CLIENT_SECRET']}
 
-@users = ["chunkybeats25", "jhsu", "user900779"]
+@users = ["chunkybeats25", "jhsu", "nlaf"]
 
 @client = SoundCloud.new({
   client_id: AUTH[:client_id],
