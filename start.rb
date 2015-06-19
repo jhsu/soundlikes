@@ -106,7 +106,7 @@ end
           send_message(channel_name, "No one liked that track")
         end
       end
-    elsif !(dasta["text"] =~ /\A\s*songs/).nil?
+    elsif !(data["text"] =~ /\A\s*songs/).nil?
       channel_name = get_channel_name(data['channel'])
       send_message(channel_name, @group_url)
     end
