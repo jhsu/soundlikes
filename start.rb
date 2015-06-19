@@ -95,9 +95,9 @@ end
         track = resolve_url(url)
 
         # contribute track to the group
-        if track.kind == "track"
-          contribute_to_group(@client, @group_id, track)
-        end
+        # if track.kind == "track"
+        #   contribute_to_group(@client, @group_id, track)
+        # end
 
         usernames = who_likes(track)
         if usernames.any?
